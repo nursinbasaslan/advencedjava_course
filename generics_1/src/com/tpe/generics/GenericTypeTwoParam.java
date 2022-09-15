@@ -31,8 +31,8 @@ public class GenericTypeTwoParam <S,U> {
 	
 
 	public static void main(String[] args) {
-		GenericTypeTwoParam<String, Integer> gt=new GenericTypeTwoParam("Java", 1);
-		GenericTypeTwoParam< Integer,Point> gt2=new GenericTypeTwoParam(1, new Point(10, 50));
+		GenericTypeTwoParam<String, Integer> gt=new GenericTypeTwoParam<>("Java", 1);
+		GenericTypeTwoParam<Integer,Point> gt2=new GenericTypeTwoParam<>(1, new Point(10, 50));
 		
 		System.out.println(gt.getS());
 		System.out.println(gt.getU());

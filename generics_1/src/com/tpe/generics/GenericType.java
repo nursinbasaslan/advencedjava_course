@@ -9,8 +9,12 @@ public class GenericType <T> {
 	
 	private T type;
 	
-
-	public T getType() {
+//generic lerde aşağıdaki gibi static kullanılmıyor
+//	public static T getType() {
+//		return type;
+//	}
+	
+	public  T getType() {
 		return type;
 	}
 
